@@ -10,5 +10,5 @@ COPY target/sbapp.jar  /usr/app/
 
 EXPOSE 8082
 
-ETRYPOINT ["java", "-jar", "sbapp.jar"]
+ENTRYPOINT ["java", "-jar", "sbapp.jar"]
 
